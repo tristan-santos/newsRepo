@@ -4,7 +4,8 @@
 	"version": "0.0.0",
 	"type": "module",
 	"scripts": {
-		"gitgit": "git init && git add . && git commit -m 'First commit' && git branch -M main && git remote add origin https://github.com/tristan-santos/newRepo.git && git push origin main",
+		"gitgit": "git add . && git commit -m 'update' && git push origin main",
+		"gitgits": "git init && git add . && git commit -m 'First commit' && git branch -M main && git remote add origin https://github.com/tristan-santos/newRepo.git && git push origin main",
 		"gits": "git remote add origin https://github.com/tristan-santos/newRepo.git && git branch -M main && git push origin main",
 		"dev": "vite",
 		"build": "vite build",
