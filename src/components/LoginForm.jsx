@@ -47,6 +47,15 @@ export default function LoginForm({ onLogin }) {
 					onChange={handleChange}
 					placeholder="Enter password"
 				/>
+				<div className="utils">
+					<div className="remember">
+						<input type="checkbox" id="rememberMe" />
+						<label htmlFor="rememberMe">Remember Me</label>
+					</div>
+					<div className="forgot">
+						<a href="/">Forgot Password?</a>
+					</div>
+				</div>
 
 				<div className="actions">
 					<button type="submit" className="btn-primary">
