@@ -5,8 +5,7 @@
 	"type": "module",
 	"scripts": {
 		"gitgit": "git add . && git commit -m 'update' && git push origin main",
-		"gitgits": "git init && git add . && git commit -m 'First commit' && git branch -M main && git remote add origin https://github.com/tristan-santos/newRepo.git && git push origin main",
-		"gits": "git remote add origin https://github.com/tristan-santos/newRepo.git && git branch -M main && git push origin main",
+		"gitgits": "git init && git add . && git remote set-url origin https://github.com/tristan-santos/activityGit.git && git branch -M main && git push -u origin main",
 		"dev": "vite",
 		"build": "vite build",
 		"lint": "eslint .",
